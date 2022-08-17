@@ -17,4 +17,4 @@ int numA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число B и нажмите Enter.");
 int numB = Convert.ToInt32(Console.ReadLine());
 int res = DegreeofNumber(numA, numB);
-Console.WriteLine($"А в степени В = {res}");
+Console.WriteLine($"{numA} в степени {numB} = {res}");
